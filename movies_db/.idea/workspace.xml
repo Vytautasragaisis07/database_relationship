@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b5d36a1-a5b2-4ddd-881c-5804049e8bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../movies_db/modals/movies.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../movies_db/modals/movies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../movies_db/movies_db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movies_db/movies.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../movies_db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/actors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/actors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/box_offices.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/box_offices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/directors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/directors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/genres.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/genres.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/movies.db" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/movies_db.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/movies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movies_db/database/modals/studios.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/studios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movies_db/modals/movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/../movies_db/modals/movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movies_db/movies_db.db" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movies_db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -88,27 +78,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="database (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="movies" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\moksleivis\Desktop\database_many_to_many_relations-master\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../movies_db/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../movies_db/database.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="database" type="PythonConfigurationType" factoryName="Python">
       <module name="movies" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +104,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\moksleivis\PycharmProjects\Pirmas\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../movies_db" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="false" />
       <option name="ADD_SOURCE_ROOTS" value="false" />
@@ -151,13 +120,7 @@
     <list>
       <item itemvalue="Python.database" />
       <item itemvalue="Python.movies" />
-      <item itemvalue="Python.database (1)" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.database (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
