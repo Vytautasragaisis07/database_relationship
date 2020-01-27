@@ -1,0 +1,18 @@
+from movies.database import create_table_database
+
+
+def create_actors_table():
+    query = """CREATE TABLE IF NOT EXISTS actor (
+                        actor_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        actor_name TEXT)"""
+    create_table_database(query)
+
+def create_actors_movies_table():
+    query = """CREATE TABLE IF NOT EXISTS actors_movies (
+                        actors_movies_Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        actorsId  FOREIGN KEY (actors_id) REFERENCES actors(actors_id),
+                        moviesId FOREIGN KEY (movies_id) REFERENCES movies(movies_id))"""
+    create_table_database(query)
+
+create_actors_table()
+create_actors_movies_table()
