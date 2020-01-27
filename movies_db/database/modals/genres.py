@@ -7,5 +7,4 @@ def create_actors_table():
                         genre_name TEXT)"""
     create_table_database(query)
 
-
 create_actors_table()
