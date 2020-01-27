@@ -1,4 +1,4 @@
-from movies.database import create_table_database
+from database import create_table_database
 
 
 def create_actors_table():

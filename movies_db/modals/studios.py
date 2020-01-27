@@ -1,4 +1,4 @@
-from database.database import create_table_database
+from database import create_table_database
 
 
 def create_studios_table():
