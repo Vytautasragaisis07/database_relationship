@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d69bd88-e4de-4072-9406-bf8c8e226d8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/modals/box_offices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/modals/box_offices.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/modals/box_offices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/modals/movies.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/modals/movies.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/box_office.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/box_office.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
