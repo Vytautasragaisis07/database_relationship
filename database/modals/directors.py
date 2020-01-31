@@ -12,6 +12,8 @@ def create_directors_table():
 def create_directors_movies_table():
     query = """CREATE TABLE IF NOT EXISTS actors_movies (
                         director_movie_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        director_id int,
+                        movie_id int,
                         movie_id  FOREIGN KEY (movie_id) REFERENCES actors(movie_id),
                         director_id  FOREIGN KEY (director_id) REFERENCES actors(director_id)"""
     create_table_database(query)
@@ -23,8 +25,10 @@ create_directors_table()
 # create_directors_movies_table()
 # get_database('PRAGMA table_info(directors)')
 
+director1 = director(None, "vardas")
+
 def create_director(director):
-    query = "INSERT INTO directors VALUES (? ,?)"
+    query = "INSERT INTO directors VALUES (?, ?)"
     params = (director.director_id, director.name)
     insert_query(query, params)
 
@@ -36,7 +40,7 @@ def get_director(director):
 
 
 def update_director(director):
-    query = "UPDATE directors SET name = 'johnAS' WHERE name = (?)"
+    query = "UPDATE directors SET name = 'vardas' WHERE name = (?)"
     params = (director.name,)
     insert_query(query, params)
 
@@ -46,6 +50,6 @@ def delete_director(director):
     params = (director.director_id, director.name)
     insert_query(query, params)
 
-director1 = director(None, "vardas")
+
 # create_director(director1)
 

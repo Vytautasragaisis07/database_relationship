@@ -12,8 +12,10 @@ create_studios_table()
 # create_table_database('DROP TABLE studios')
 # get_database('PRAGMA table_info(studios)')
 
+studio1 = studio(None, "Universal Pictures")
+
 def create_studio(studio):
-    query = "INSERT INTO studios VALUES (? ,?)"
+    query = "INSERT INTO studios VALUES (?, ?)"
     params = (studio.studio_id, studio.studio_name)
     insert_query(query, params)
 
@@ -23,7 +25,7 @@ def get_studio(studio):
     get_database(query, params)
 
 def update_studio(studio):
-    query = "UPDATE studios SET studio_name = 'Picture' WHERE studio_name = (?)"
+    query = "UPDATE studios SET studio_name = 'Universal Pictures' WHERE studio_name = (?)"
     params = (studio.studio_name,)
     insert_query(query, params)
 
@@ -31,8 +33,6 @@ def delete_studio(studio):
     query = "DELETE FROM studios WHERE studio_id = (?) OR studio_name = (?)"
     params = (studio.studio_id, studio.studio_name)
     insert_query(query, params)
-
-studio1 = studio(None, "Universal Pictures")
 
 # create_studio(studio1)
 # get_studio(studio1)
