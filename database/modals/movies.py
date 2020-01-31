@@ -46,7 +46,7 @@ def delete_movie(movie):
     params = (movie.movie_id, movie.movie_name, movie.release_date, movie.rating, movie.genre)
     insert_query(query, params)
 
-# delete_movie(movie2)
-# update_movie(movie2)
-# get_movie(movie2)
-# create_movie(movie2)
+# delete_movie(movie1)
+# update_movie(movie1)
+# get_movie(movie1)
+# create_movie(movie1)

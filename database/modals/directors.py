@@ -14,8 +14,8 @@ def create_directors_movies_table():
                         director_movie_id INTEGER PRIMARY KEY AUTOINCREMENT,
                         director_id int,
                         movie_id int,
-                        movie_id  FOREIGN KEY (movie_id) REFERENCES actors(movie_id),
-                        director_id  FOREIGN KEY (director_id) REFERENCES actors(director_id)"""
+                        movie_id FOREIGN KEY (movie_id) REFERENCES actors(movie_id),
+                        director_id FOREIGN KEY (director_id) REFERENCES actors(director_id)"""
     create_table_database(query)
 
 
@@ -51,5 +51,8 @@ def delete_director(director):
     insert_query(query, params)
 
 
-# create_director(director1)
+#create_director(director1)
+#get_director(director1)
+#update_director(director1)
+#delete_director(director1)
 

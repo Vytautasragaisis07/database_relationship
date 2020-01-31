@@ -14,7 +14,7 @@ def create_actors_movies_table():
                         actor_movie_id INTEGER PRIMARY KEY AUTOINCREMENT,
                         actor_id int,
                         movie_id int,
-                        actor_id  FOREIGN KEY (actor_id) REFERENCES actors(actor_id),
+                        actor_id FOREIGN KEY (actor_id) REFERENCES actors(actor_id),
                         movie_id FOREIGN KEY (movie_id) REFERENCES movies(movie_id))"""
     create_table_database(query)
 

@@ -34,7 +34,7 @@ def delete_studio(studio):
     params = (studio.studio_id, studio.studio_name)
     insert_query(query, params)
 
-# create_studio(studio1)
-# get_studio(studio1)
-# update_studio(studio1)
+#create_studio(studio1)
+#get_studio(studio1)
+#update_studio(studio1)
 #delete_studio(studio1)

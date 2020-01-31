@@ -14,8 +14,8 @@ def create_movies_genres_table():
                         genre_movie_id INTEGER PRIMARY KEY AUTOINCREMENT,
                         genre_id int,
                         movie_id int,
-                        genre_id  FOREIGN KEY (genre_id) REFERENCES actors(genre_id),
-                        movie_id  FOREIGN KEY (movie_id) REFERENCES actors(movie_id)"""
+                        genre_id FOREIGN KEY (genre_id) REFERENCES actors(genre_id),
+                        movie_id FOREIGN KEY (movie_id) REFERENCES actors(movie_id)"""
     create_table_database(query)
 
 
@@ -25,7 +25,7 @@ create_genres_table()
 # create_table_database('DROP TABLE genres')
 # get_database('PRAGMA table_info(genres)')
 
-genre2 = genre(None, "Criminal")
+genre1 = genre(None, "Criminal")
 
 def create_genre(genre):
     query = "INSERT INTO genres VALUES (?, ?)"
@@ -40,7 +40,7 @@ def get_genre(genre):
 
 def update_genre(genre):
     query = "UPDATE genres SET name = 'Criminal' WHERE name = (?)"
-    params = (genre.name,)
+    params = (genre.name)
     insert_query(query, params)
 
 def delete_genre(genre):
@@ -49,8 +49,8 @@ def delete_genre(genre):
     insert_query(query, params)
 
 
-create_genre(genre2)
-get_genre(genre2)
-update_genre(genre2)
-delete_genre(genre2)
+create_genre(genre1)
+get_genre(genre1)
+update_genre(genre1)
+delete_genre(genre1)
 
